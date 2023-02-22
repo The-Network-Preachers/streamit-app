@@ -1,6 +1,6 @@
 # streamit_app
 
-A new Flutter project.
+A new Flutter project by The Network Preachers.
 
 ## Getting Started
 
