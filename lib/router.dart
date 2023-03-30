@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import './pages/join_room_page.dart';
+import './utils/themes.dart';
 
 class StreamItRouter extends StatelessWidget {
   const StreamItRouter({Key? key}) : super(key: key);
@@ -8,6 +9,7 @@ class StreamItRouter extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      theme: lightTheme,
       debugShowCheckedModeBanner: false,
       routes: {
         '/': (context) => const JoinRoomPage(),

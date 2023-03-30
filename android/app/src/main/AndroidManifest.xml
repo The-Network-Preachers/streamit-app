@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.streamit_app">
+    package="com.jose7.streamit_app">
    <application
-        android:label="streamit_app"
+        android:label="streamit"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity

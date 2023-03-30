@@ -38,12 +38,9 @@ class _JoinRoomPageState extends State<JoinRoomPage> {
                   decoration: const BoxDecoration(
                     color: kBlue,
                   ),
-                  child: const Text(
+                  child: Text(
                     "StreamIt",
-                    style: TextStyle(
-                      color: kWhite,
-                      fontSize: 24,
-                    ),
+                    style: Theme.of(context).textTheme.titleLarge,
                   ),
                 ),
                 Container(
@@ -145,13 +142,12 @@ class _JoinRoomPageState extends State<JoinRoomPage> {
                   decoration: const BoxDecoration(
                     color: kBlue,
                   ),
-                  child: const Center(
+                  child: Center(
                     child: Text(
                       "The Network Preachers © 2023",
-                      style: TextStyle(
-                        color: kWhite,
-                        fontSize: 12,
-                      ),
+                      style: Theme.of(context).textTheme.bodySmall!.copyWith(
+                            color: kWhite,
+                          ),
                     ),
                   ),
                 ),
