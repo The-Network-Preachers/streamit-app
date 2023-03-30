@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-import './pages/login.dart';
+import './router.dart';
 
 void main() {
-  runApp(const LoginPage());
+  runApp(const StreamItRouter());
 }
