@@ -11,9 +11,8 @@ class StreamItRouter extends StatelessWidget {
     return MaterialApp(
       theme: lightTheme,
       debugShowCheckedModeBanner: false,
-      routes: {
-        '/': (context) => const JoinRoomPage(),
-      },
+      themeMode: ThemeMode.light,
+      home: const JoinRoomPage(),
     );
   }
 }
