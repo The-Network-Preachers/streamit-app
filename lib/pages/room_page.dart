@@ -49,7 +49,7 @@ class _RoomPageState extends State<RoomPage> {
                         style: textTheme.titleLarge,
                       ),
                       IconButton(
-                        onPressed: () {},
+                        onPressed: () => Navigator.of(context).pop(),
                         icon: const Icon(
                           Icons.exit_to_app_rounded,
                           color: kWhite,

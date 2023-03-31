@@ -29,6 +29,7 @@ class _JoinRoomPageState extends State<JoinRoomPage> {
             children: [
               Container(
                 padding: const EdgeInsets.only(
+                  top: 10,
                   left: 20,
                   bottom: 10,
                 ),
@@ -142,7 +143,7 @@ class _JoinRoomPageState extends State<JoinRoomPage> {
                 ),
               ),
               Container(
-                padding: const EdgeInsets.only(top: 10),
+                padding: const EdgeInsets.symmetric(vertical: 10),
                 decoration: const BoxDecoration(
                   color: kBlue,
                 ),

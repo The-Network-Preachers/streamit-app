@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.jose7.streamit_app">
+    package="com.example.streamit_app">
    <application
         android:label="streamit"
         android:name="${applicationName}"
